@@ -1,0 +1,8 @@
+{
+    "version": "0.2.0",
+    "command": "Explorer",    
+    "windows": {
+        "command": "Explorer.exe"
+    },
+    "args": ["teste1.html"]
+}

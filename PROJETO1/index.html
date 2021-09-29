@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyClosett</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">
+                <h1>MyClosett</h1>
+                </a>
+                
+                <div class="menu">                                
+                    <a href="sobre.html">Quem somos</a>
+                </div>
+            </div>
+        </nav>
+    <section class="hero">
+        <div class="container">
+            <form id="formSearch">
+                <input type="search" placeholder="Qual produto voce procura?" name="inputSearch" id="inputSearch">
+                </form>
+        </div>
+    </section>
+    </header>
+    <main>
+        <div class="container">
+            <h3>Produtos mais vendidos</h3>
+              <section class="pro"  id="product-div">  
+                  <article class="produtoo">
+                    <img src="imagens/Alma.png" alt="Produto 1" width="300" height="300">
+                    <h4>Conjunto Alma</h4>
+                    <h4> R$ 319,00</h4>
+                    <p> Somente esta cor </p>
+                     <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/Ananda.png" alt="Produto 2" width="300"  height="300">
+                    <h4>Vestido Ananda</h4>
+                    <h4> R$ 269,00</h4>
+                    <p> Cores disponiveis em Rosa e Azul </p>
+                     <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/DOHA.png" alt="Produto 3" width="300" height="300">
+                    <h4>Vestido Doha</h4>
+                    <h4> R$ 319,00</h4>
+                    <p> Cores disponiveis em Laranja</p>
+                    <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/Juliete.png" alt="Produto 4" width="300" height="300">
+                    <h4>Vestido Juliette</h4>
+                    <h4> R$ 279,00</h4>
+                    <p> Cores disponiveis em Branco e Pink</p>
+                    <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                                         
+            </section> 
+        </div>
+        <div class="modal hide">
+            <form class="modal-form" id="form-product"></form>
+            <div class="form-group">
+                <label for="title">Produto:</label>
+                <input type="text" name="title" id="title" class="form-control" placeholder="Ex. Prato 01" required="required">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantidade:</label>
+                <input type="number" name="quantity" id="quantity" class="form-control" placeholder="Ex. 1" required="required" min ="1">
+            </div>
+            <div class="form-group">
+                <label for="name">Seu Nome:</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Ex. Fabio" required="required">
+            </div>
+            <div class="form-group">
+                <label for="adress">Endereco:</label>
+                <input type="text" name="adress " id="adress" class="form-control" placeholder="Ex. sp" required="required">
+            </div>
+            <div class="form-group">
+                <label for="payment">Pagamento:</label>
+                <select name="payment" id="payment" class="form-control" required="required">
+                    <option value="dinheiro">Dinheiro:</option>
+                    <option value="cartao">Cartao de Credito</option>
+                </select>
+            </div>
+        <div class="btn-group">
+                <button type="submit" class="btn btn-sucess"> Finalizar Pedido</button>
+                <button type="button" class="btn btn-danger" onclick="modaltrigger()"> Cancelar Pedido</button>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p> Meu primeiro Site em HTML</p>
+        </div>
+    </footer>
+
+
+<script src="javascript/produtos.js"></script>    
+<script src="javascript/app.js"></script>    
+
+</body>
+</html>

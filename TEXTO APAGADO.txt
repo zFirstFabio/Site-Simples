@@ -1,0 +1,32 @@
+<article class="produtoo">
+                    <img src="imagens/Alma.png" alt="Produto 1" width="300" height="300">
+                    <h4>Conjunto Alma</h4>
+                    <h4> R$ 319,00</h4>
+                    <p> Somente esta cor </p>
+                     <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/Ananda.png" alt="Produto 2" width="300"  height="300">
+                    <h4>Vestido Ananda</h4>
+                    <h4> R$ 269,00</h4>
+                    <p> Cores disponiveis em Rosa e Azul </p>
+                     <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/DOHA.png" alt="Produto 3" width="300" height="300">
+                    <h4>Vestido Doha</h4>
+                    <h4> R$ 319,00</h4>
+                    <p> Cores disponiveis em Laranja</p>
+                    <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
+                <article class="produtoo">
+                    <img src="imagens/Juliete.png" alt="Produto 4" width="300" height="300">
+                    <h4>Vestido Juliette</h4>
+                    <h4> R$ 279,00</h4>
+                    <p> Cores disponiveis em Branco e Pink</p>
+                    <p>Tamanhos: P, M, G </p>
+                    <button type="button"> Adcionar ao carrinho</button>
+                </article>
